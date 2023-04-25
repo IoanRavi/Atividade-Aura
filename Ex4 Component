@@ -18,7 +18,7 @@
                        <lightning:inputField fieldName="quantidade__c" aura:id="field"/>
                        <lightning:inputField fieldName="PrecoTotal__c" aura:id="field"/>
             
-            <lightning:button class="slds-m-top-small" onclick="{c.handlerReset}" label="Limpar"/>
+            <lightning:button class="slds-m-top-small" onclick="{c.handleReset}" label="Limpar"/>
             <lightning:button class="slds-m-top-small" variant="brand" type="submit" label="Criar novo item"/>
             
         </lightning:recordEditForm>
